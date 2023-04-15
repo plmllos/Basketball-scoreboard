@@ -60,7 +60,7 @@ function increment5() {
         guestScoreEl.textContent = "0" + guestScore
     } else {
         guestScoreEl.textContent = guestScore
-    }
+        }
 }
 
 function increment6() {
@@ -71,7 +71,7 @@ function increment6() {
         guestScoreEl.textContent = "0" + guestScore
     } else {
         guestScoreEl.textContent = guestScore
-    }
+        }
 }
 
 function incrementFaulHome() {
@@ -80,8 +80,7 @@ function incrementFaulHome() {
         foulHomeEl.textContent = "0" + foulHome
     } else {
         foulHomeEl.textContent = foulHome
-    }
-    
+        }
 }
 
 function incrementFaulGuest() {
@@ -90,7 +89,7 @@ function incrementFaulGuest() {
         foulGuestEl.textContent = "0" + foulGuest
     } else {
         foulGuestEl.textContent = foulGuest
-    }
+        }
 }
 
 function startNewGame() {
