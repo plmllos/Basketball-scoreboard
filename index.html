@@ -10,20 +10,20 @@
 </head>
 <body>
 
-    <button class="new-btn" onclick="startNewGame ()"> NEW GAME </button>
+    <button id="new-btn"> NEW GAME </button>
 
     <div class="container">
         <div class="section">
             <h3>HOME</h3>
             <p id="home-score"> 000 </p>
-            <button onclick="increment1 ()"> +1 </button>
-            <button onclick="increment2 ()"> +2 </button>
-            <button onclick="increment3 ()"> +3 </button>
+            <button id="increment-btn1"> +1 </button>
+            <button id="increment-btn2"> +2 </button>
+            <button id="increment-btn3"> +3 </button>
             <div class="fouls">
                 <h4> Fouls: </h4>
                 <p id="foul-home"> 00 </p>   
             </div> 
-            <button class="faul-btn" onclick="incrementFaulHome ()"> + </button>
+            <button class="faul-btn" id="increment-btn7"> + </button>
         </div>
 
         <p class="colon">:</p>
@@ -31,14 +31,14 @@
         <div class="section">
             <h3>GUEST</h3>
             <p id="guest-score"> 000 </p>
-            <button onclick="increment4 ()"> +1 </button>
-            <button onclick="increment5 ()"> +2 </button>
-            <button onclick="increment6 ()"> +3 </button>
+            <button id="increment-btn4"> +1 </button>
+            <button id="increment-btn5"> +2 </button>
+            <button id="increment-btn6"> +3 </button>
             <div class="fouls">
                 <h4> Fouls: </h4>
                 <p id="foul-guest"> 00 </p>   
             </div>
-            <button class="faul-btn" onclick="incrementFaulGuest ()"> + </button>  
+            <button class="faul-btn" id="increment-btn8"> + </button>  
         </div>
     </div>
 
